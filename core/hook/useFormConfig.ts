@@ -1,11 +1,7 @@
-import {DecoratorKeys} from "@core/constants";
-import {
-  DecoratedFormMetadata,
-  HanleConfig,
-  ReactConfig,
-} from "@core/decor/formX";
-import {getFieldConfigFromClass} from "@core/getFieldConfigFromClass";
-import {AnyParamConstructor} from "@core/types";
+import {DecoratorKeys} from "../constants";
+import {DecoratedFormMetadata, HanleConfig, ReactConfig} from "../decor/formX";
+import {getFieldConfigFromClass} from "../getFieldConfigFromClass";
+import {AnyParamConstructor} from "../types";
 import {FormikConfig} from "formik";
 import "reflect-metadata";
 

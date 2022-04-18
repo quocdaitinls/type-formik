@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import {FormikConfig} from "formik";
-import {ClassDecorator} from "@core/types";
-import {DecoratorKeys} from "@core/constants";
+import {ClassDecorator} from "../types";
+import {DecoratorKeys} from "../constants";
 
 export type FieldConfig<V = any> = Pick<
   FormikConfig<V>,
